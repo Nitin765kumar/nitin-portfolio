@@ -1,372 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Nitin Kumar - Backend Python Developer specializing in Flask, AI systems, and scalable web applications.">
-<meta name="keywords" content="Python Developer, Flask Developer, Backend Developer, AI Projects">
-<meta name="author" content="Nitin Kumar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nitin Kumar - Backend Python Developer specializing in Flask, AI systems, and scalable web applications.">
+    <meta name="keywords" content="Python Developer, Flask Developer, Backend Developer, AI Projects">
+    <meta name="author" content="Nitin Kumar">
 
-<title>Nitin Kumar | Python Developer</title>
+    <title>Nitin Kumar | Python & Backend Developer</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-<link rel="stylesheet" href="style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg sticky-top">
-<div class="container">
-<a class="navbar-brand fw-bold" href="#">Nitin Kumar</a>
-<button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="nav">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
+    <nav class="navbar navbar-expand-lg fixed-top premium-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="brand-accent">&lt;</span>Nitin Kumar<span class="brand-accent"> /&gt;</span>
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navGrid">
+                <span class="toggler-icon-bar"></span>
+                <span class="toggler-icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navGrid">
+                <ul class="navbar-nav ms-auto nav-links-wrapper">
+                    <li class="nav-item"><a class="nav-link custom-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link custom-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link custom-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link custom-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link custom-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link custom-link-btn" href="#contact">Let's Talk</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<!-- Hero -->
-<header class="hero">
-<div class="container">
-<h1 class="display-4">Python Developer</h1>
-<p class="lead mb-4">
-<p class="lead">
-Python developer focused on backend systems, data processing, and AI-powered applications.
-I build practical solutions that solve real-world problems with clean and maintainable code.
-</p>
-</p>
-<a href="#projects" class="btn btn-primary">View Projects</a>
-<a href="https://github.com/Nitin765kumar" target="_blank" class="btn btn-outline-light ms-3">
-GitHub <i class="bi bi-github"></i>
-</a>
-</div>
-</header>
+    <header class="hero-section d-flex align-items-center position-relative overflow-hidden">
+        <div class="hero-bg-blur"></div>
+        <div class="container position-relative secondary-z">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7">
+                    <div class="badge-status mb-3">
+                        <span class="pulse-dot"></span> Available for Developer Roles
+                    </div>
+                    <h1 class="hero-title mb-3">
+                        Building Practical <span class="text-gradient">Python Applications</span> & Modern Web Experiences
+                    </h1>
+                    <p class="hero-lead mb-4">
+                        BCA student and aspiring Software Developer with hands-on experience in Python, Web Development, and Data Analysis. Passionate about building practical applications, learning modern technologies, and solving real-world problems through code.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-premium-primary me-3">
+                            Explore Work <i class="bi bi-arrow-up-right-last ms-2"></i>
+                        </a>
+                        <a href="https://github.com/Nitin765kumar" target="_blank" class="btn btn-premium-outline">
+                            <i class="bi bi-github me-2"></i> GitHub Profile
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="hero-visual-card">
+                        <div class="code-window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <pre class="code-snippet"><code><span class="keyword">import</span> developer
 
-<!-- About -->
-<section id="about" class="py-5">
-<div class="container">
-<h2 class="section-title">About</h2>
-<p>
-I am a Python developer with a strong interest in backend developement,data analysis, and AI-based applications.
-I enjoy building systems that solve real-world problems and improve efficiency through automation
-and clean architecture.
-</p>
-<p>
-    My experience includes developing REST APIs using Flask, working with relational databases like SQLite, processing large datasets
-    using Pandas, and buildinng machine learning models using PyTorch and OpenCV.
-</p>
+nitin = developer.JuniorPythonDev({
+    <span class="string">'focus'</span>: <span class="string">'Backend & APIs'</span>,
+    <span class="string">'toolkit'</span>: [<span class="string">'Flask'</span>, <span class="string">'SQLite'</span>, <span class="string">'Pandas'</span>],
+    <span class="string">'mission'</span>: <span class="string">'Clean, scalable code'</span>
+})
 
-<p>
-    I focus on writing structured, maintainable code and cotinuously improving my problem-solving and system
-    design skills. Currently, I am looking for opportunities where I can contribute to backend systems and grow as a software engineer.
-</p>
-</div>
-</section>
+nitin.optimize_efficiency()</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<!-- Skills -->
-<section id="skills" class="py-5">
-<div class="container">
-<h2 class="section-title">Technical Skills</h2>
-<div class="d-flex flex-wrap">
-<span class="badge-skill">Python</span>
-<span class="badge-skill">Flask</span>
-<span class="badge-skill">SQLite</span>
-<span class="badge-skill">SQL</span>
-<span class="badge-skill">Pandas</span>
-<span class="badge-skill">Matplotlib</span>
-<span class="badge-skill">HTML/CSS</span>
-<span class="badge-skill">Bootstrap</span>
-<span class="badge-skill">JavaScript</span>
-<span class="badge-skill">Git/GitHub</span>
-</div>
-</div>
-</section>
+    <section id="about" class="py-6 section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="sticky-title-stack">
+                        <span class="section-tag">01 // Profile</span>
+                        <h2 class="section-heading mb-4">Driven by Logic,<span class="d-block text-gradient">Refined by Code.</span></h2>
+                        <p class="section-desc mb-4">
+                            I am a BCA student with a strong interest in Software Development, Python Programming, and Web Technologies. I enjoy building practical projects, exploring new technologies, and continuously improving my problem-solving skills. My experience includes developing Python applications, creating responsive websites, working with data analysis tools, and contributing to internship projects. Currently, I am expanding my knowledge in Data Science, Artificial Intelligence, and Backend Development.
+                        </p>
+                        <div class="mini-metrics-row row g-3">
+                            <div class="col-6">
+                                <div class="metric-box">
+                                    <h3 class="metric-num">8+</h3>
+                                    <p class="metric-label">Completed Applications</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="metric-box">
+                                    <h3 class="metric-num">2</h3>
+                                    <p class="metric-label">Developer Internships</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-cards-stack">
+                        <div class="about-card-premium mb-4">
+                            <div class="card-icon-wrapper"><i class="bi bi-code-square"></i></div>
+                            <h4>Python Development</h4>
+                            <p>Building desktop applications, automation scripts, and backend projects using Python while following clean coding practices.</p>
+                        </div>
+                        <div class="about-card-premium mb-4">
+                            <div class="card-icon-wrapper"><i class="bi bi-graph-up-arrow"></i></div>
+                            <h4>Data Analysis</h4>
+                            <p>Working with datasets using Pandas and Matplotlib to perform basic analysis, visualization, and data processing tasks.</p>
+                        </div>
+                        <div class="about-card-premium">
+                            <div class="card-icon-wrapper"><i class="bi bi-mortarboard"></i></div>
+                            <h4>Academic Foundation</h4>
+                            <p class="mb-1 fw-semibold text-white">Bachelor of Computer Applications (BCA)</p>
+                            <p class="text-muted small mb-0">K.S. Saket P.G. College, Ayodhya • Expected Graduation: 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Projects -->
-<section id="projects" class="py-5">
-  <div class="container">
-    <h2 class="section-title text-center mb-5">Featured Projects</h2>
+    <section id="skills" class="py-6 bg-surface-dark section-padding">
+        <div class="container">
+            <div class="text-center max-w-md mx-auto mb-5">
+                <span class="section-tag">02 // Capability</span>
+                <h2 class="section-heading">Engineered Core Toolkit</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-pill-card"><i class="bi bi-filetype-py color-py"></i> <span>Python</span></div>
+                <div class="skill-pill-card"><i class="bi bi-boxes color-flask"></i> <span>Flask</span></div>
+                <div class="skill-pill-card"><i class="bi bi-database color-sql"></i> <span>SQLite & SQL</span></div>
+                <div class="skill-pill-card"><i class="bi bi-table color-pandas"></i> <span>Pandas</span></div>
+                <div class="skill-pill-card"><i class="bi bi-bar-chart color-mat"></i> <span>Matplotlib</span></div>
+                <div class="skill-pill-card"><i class="bi bi-filetype-html color-html"></i> <span>HTML5 / CSS3</span></div>
+                <div class="skill-pill-card"><i class="bi bi-bootstrap color-boot"></i> <span>Bootstrap 5</span></div>
+                <div class="skill-pill-card"><i class="bi bi-filetype-js color-js"></i> <span>JavaScript (ES6)</span></div>
+                <div class="skill-pill-card"><i class="bi bi-git color-git"></i> <span>Git & GitHub</span></div>
+            </div>
+        </div>
+    </section>
 
-    <div class="row g-4">
-<!-- Restaurant Billing software -->
+    <section id="experience" class="py-6 section-padding">
+        <div class="container">
+            <div class="text-center max-w-md mx-auto mb-5">
+                <span class="section-tag">03 // Track Record</span>
+                <h2 class="section-heading">Professional Journey</h2>
+            </div>
+            <div class="timeline-container max-w-lg mx-auto">
+                <div class="timeline-block">
+                    <div class="timeline-indicator"></div>
+                    <div class="timeline-content-card">
+                        <span class="timeline-date">Dec 2025 - Jan 2026</span>
+                        <h4 class="timeline-role">Software Development Intern</h4>
+                        <h5 class="timeline-company text-gradient">Bluestock Fintech Limited</h5>
+                        <p class="timeline-text">Contributed to digital fintech architecture layers via structured virtual infrastructure environments over a focused 2-month cycle.</p>
+                    </div>
+                </div>
+                <div class="timeline-block">
+                    <div class="timeline-indicator"></div>
+                    <div class="timeline-content-card">
+                        <span class="timeline-date">Aug 2025 - Aug 2025</span>
+                        <h4 class="timeline-role">Junior Python Developer Intern</h4>
+                        <h5 class="timeline-company text-gradient">BroskiesHub</h5>
+                        <p class="timeline-text">Assisted in setting up automated scripting tasks, pipeline mechanics, and backend logic modules inside production sprint environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-  <div class="card-body">
-    <h5>Restaurant Billing Software</h5>
-    <p class="tech-stack">Python • Tkinter</p>
-    <p class="problem-text">
-      Desktop-based billing system with invoice generation,
-      item management and real-time total calculation.
-    </p>
+    <section id="projects" class="py-6 bg-surface-dark section-padding">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5">
+                <div>
+                    <span class="section-tag">04 // Production Portfolio</span>
+                    <h2 class="section-heading mb-0">Featured Engineering Works</h2>
+                </div>
+                <div class="mt-3 mt-md-0">
+                    <button id="toggle-btn" class="btn btn-premium-outline" onclick="toggleProjects()">
+                        See All Applications <i class="bi bi-grid-3x3-gap ms-2"></i>
+                    </button>
+                </div>
+            </div>
 
-    <a href="https://github.com/Nitin765kumar/restaurant-billing-software"
-       target="_blank"
-       class="btn btn-sm btn-dark mt-2">
-       View Code
-    </a>
-  </div>
-</div>
-</div>  
- <!-- 3️⃣ Medicare plus -->
-    <div class="col-md-6 col-lg-3">
-    <div class="card project-card h-100">
-    <div class="card-body">
-      <h5>Medicare Plus Website</h5>
-      <p class="tech-stack">HTML • CSS • Bootstrap • JavaScript</p>
-      <p class="problem-text">
-        Responsive healthcare website designed with clean UI, service sections, patient-focused layout, and smooth navigation for better user experience.
-      </p>
+            <div class="row g-4 project-showcase-grid">
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-cpu-fill"></i> System Logic</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Restaurant Billing Software</h4>
+                            <p class="project-summary">Desktop management application featuring secure dynamic invoice calculations, real-time inventory adjustments, and clean multi-threaded workflows.</p>
+                            <div class="project-tech-badges">
+                                <span>Python</span>
+                                <span>Tkinter</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto">
+                            <a href="https://github.com/Nitin765kumar/restaurant-billing-software" target="_blank" class="btn-project-link primary-view w-100">
+                                Inspect Codebase <i class="bi bi-github ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="mt-3 d-grid gap-2">
-  <a href="https://nitin765kumar.github.io/Medicare/"
-     target="_blank"
-     class="btn btn-sm btn-primary">
-     Live Demo
-  </a>
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-browser-safari"></i> Web Client</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Medicare Plus Interface</h4>
+                            <p class="project-summary">High-fidelity responsive clinical UI platform designed with clean semantic markup layouts, intuitive patient workflows, and zero latency navigations.</p>
+                            <div class="project-tech-badges">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap 5</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto dual-actions">
+                            <a href="https://nitin765kumar.github.io/Medicare/" target="_blank" class="btn-project-link secondary-live">
+                                Live Platform <i class="bi bi-box-arrow-up-right ms-2"></i>
+                            </a>
+                            <a href="https://github.com/Nitin765kumar/Medicare" target="_blank" class="btn-project-link text-center">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-  <a href="https://github.com/Nitin765kumar/Medicare"
-     target="_blank"
-     class="btn btn-sm btn-outline-light">
-     View Code
-  </a>
-</div>
-    </div>
-  </div>
-</div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-layers-half"></i> Portal Architecture</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">University Portal Layout</h4>
+                            <p class="project-summary">Multi-view scalable educational platform designed to showcase structured academic structures and highly clean layouts for cross-device users.</p>
+                            <div class="project-tech-badges">
+                                <span>HTML5</span>
+                                <span>Bootstrap 5</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto dual-actions">
+                            <a href="https://nitin765kumar.github.io/unicore-university-portal/" target="_blank" class="btn-project-link secondary-live">
+                                Live Platform <i class="bi bi-box-arrow-up-right ms-2"></i>
+                            </a>
+                            <a href="https://github.com/Nitin765kumar/unicore-university-portal" target="_blank" class="btn-project-link text-center">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  <!-- University Website --> 
-<div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-    <div class="card-body d-flex flex-column">
-      
-      <h5>University Website</h5>
-      <p class="tech-stack">HTML • CSS • Bootstrap • JavaScript</p>
-      <p class="problem-text">
-        Modern multi-page university portal built with responsive UI, academic 
-        sections, structured navigation, and clean user experience for students and visitors.
-      </p>
+            <div id="more-projects" class="row g-4 mt-2 d-none">
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-terminal"></i> Automation</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">News Headline Scraper</h4>
+                            <p class="project-summary">Efficient autonomous news extraction tool that bypasses common rate-limiting rules to output structured JSON/CSV analytics profiles cleanly.</p>
+                            <div class="project-tech-badges">
+                                <span>Python</span>
+                                <span>BeautifulSoup</span>
+                                <span>Requests</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto">
+                            <a href="https://github.com/Nitin765kumar/news-headline-scraper" target="_blank" class="btn-project-link primary-view w-100">
+                                Inspect Codebase <i class="bi bi-github ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Buttons -->
-      <div class="mt-auto d-grid gap-2">
-        <a href="https://nitin765kumar.github.io/unicore-university-portal/"
-           target="_blank"
-           class="btn btn-sm btn-primary">
-           Live Demo
-        </a>
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-image-fill"></i> Data Processing</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Image Resizer Engine</h4>
+                            <p class="project-summary">Optimized utility layout engine utilizing custom processing matrices for instant aspect-ratio corrections and visual adjustments without degrading fidelity.</p>
+                            <div class="project-tech-badges">
+                                <span>Python</span>
+                                <span>Pillow (PIL)</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto">
+                            <a href="https://github.com/Nitin765kumar/image-resizer-tool" target="_blank" class="btn-project-link primary-view w-100">
+                                Inspect Codebase <i class="bi bi-github ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-        <a href="https://github.com/Nitin765kumar/unicore-university-portal"
-           target="_blank"
-           class="btn btn-sm btn-outline-light">
-           View Code
-        </a>
-      </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-clock-fill"></i> Graphics Logic</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Dynamic Analog Interface</h4>
+                            <p class="project-summary">High-refresh client-side real-time clock executing smooth trigonometry calculation matrices for flawless engine ticking and custom aesthetic UI mapping.</p>
+                            <div class="project-tech-badges">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Vanilla JS</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto dual-actions">
+                            <a href="https://nitin765kumar.github.io/Analog-Clock/" target="_blank" class="btn-project-link secondary-live">
+                                Live Platform <i class="bi bi-box-arrow-up-right ms-2"></i>
+                            </a>
+                            <a href="https://github.com/Nitin765kumar/Analog-Clock" target="_blank" class="btn-project-link text-center">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
-  </div>
-</div>
-        <!-- Sales data analysis -->
-<div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-    <div class="card-body">
-      <h5>Sales Data Analysis (CSV)</h5>
-      <p class="tech-stack">Python • Pandas • Matplotlib</p>
-      <p class="problem-text">
-        Processed and analyzed large CSV sales datasets using
-        Pandas for data cleaning, aggregation and visualization
-        to generate revenue and product insights.
-      </p>
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-compass-fill"></i> Production Web</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">India Tour & Travels Hub</h4>
+                            <p class="project-summary">Immersive discovery platform featuring advanced content showcases and responsive discovery layouts constructed to optimize browsing parameters completely.</p>
+                            <div class="project-tech-badges">
+                                <span>HTML5</span>
+                                <span>Bootstrap 5</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto dual-actions">
+                            <a href="https://nitin765kumar.github.io/India-tour---travels/" target="_blank" class="btn-project-link secondary-live">
+                                Live Platform <i class="bi bi-box-arrow-up-right ms-2"></i>
+                            </a>
+                            <a href="https://github.com/Nitin765kumar/India-tour---travels" target="_blank" class="btn-project-link text-center">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-      <a href="https://github.com/Nitin765kumar/Sales-Data-Analysis"
-         target="_blank"
-         class="btn btn-sm btn-dark mt-2">
-         View Code
-      </a>
-    </div>
-  </div>
-</div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="project-glass-card h-100">
+                        <div class="project-card-header">
+                            <span class="project-type-badge"><i class="bi bi-pie-chart-fill"></i> Data Science</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Sales Aggregator Analytics</h4>
+                            <p class="project-summary">Robust ingestion framework built to parse and scrub messy multi-megabyte enterprise datasets, returning clean aggregated market and pipeline figures.</p>
+                            <div class="project-tech-badges">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                            </div>
+                        </div>
+                        <div class="project-card-footer mt-auto">
+                            <a href="https://github.com/Nitin765kumar/Sales-Data-Analysis" target="_blank" class="btn-project-link primary-view w-100">
+                                Inspect Codebase <i class="bi bi-github ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <section id="contact" class="py-6 section-padding">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <span class="section-tag">05 // Contact</span>
+                    <h2 class="section-heading mb-4">Let's build something<span class="text-gradient d-block">extraordinary.</span></h2>
+                    <p class="text-muted mb-5">
+                        I am always open to discussing internship opportunities, freelance projects, collaborations, and software development ideas. Feel free to connect with me through email or LinkedIn.
+                    </p>
+                    
+                    <div class="contact-channels-list">
+                        <div class="channel-item-premium mb-4">
+                            <div class="channel-icon"><i class="bi bi-envelope-at"></i></div>
+                            <div>
+                                <span class="channel-label">Direct Communication</span>
+                                <a href="mailto:nitinkumar812719@gmail.com" class="channel-link">nitinkumar812719@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="channel-item-premium">
+                            <div class="channel-icon"><i class="bi bi-linkedin"></i></div>
+                            <div>
+                                <span class="channel-label">Professional Network</span>
+                                <a href="https://www.linkedin.com/in/nitinkumar25/" target="_blank" class="channel-link">linkedin.com/in/nitinkumar25</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="contact-form-glass-card">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating-custom">
+                                        <label class="custom-form-label">Full Name</label>
+                                        <input type="text" class="form-control premium-input" placeholder="e.g. John Doe" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating-custom">
+                                        <label class="custom-form-label">Email Address</label>
+                                        <input type="email" class="form-control premium-input" placeholder="name@company.com" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating-custom">
+                                        <label class="custom-form-label">Message Details</label>
+                                        <textarea class="form-control premium-input text-area-custom" rows="5" placeholder="Outline your project timeline, requirements, or role scope..." required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-premium-primary w-100 py-3">
+                                        Transmit Message <i class="bi bi-send-fill ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Hidden Projects -->
-    <div id="more-projects" class="row g-4 mt-4 d-none">
+    <footer class="portfolio-minimal-footer">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <p class="footer-copyright mb-0">&copy; 2026 Nitin Kumar. Built with HTML, CSS, Bootstrap, and JavaScript.</p>
+                <div class="footer-social-links">
+                    <a href="https://github.com/Nitin765kumar" target="_blank" aria-label="GitHub Link"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nitinkumar25/" target="_blank" aria-label="LinkedIn Link"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-  <div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-  <div class="card-body">
-    <h5>News Headline Scraper</h5>
-    <p class="tech-stack">Python • Requests • BeautifulSoup</p>
-    <p class="problem-text">
-      Automated web scraping tool that extracts latest news
-      headlines from websites and processes structured data.
-    </p>
-
-    <a href="https://github.com/Nitin765kumar/news-headline-scraper"
-       target="_blank"
-       class="btn btn-sm btn-dark mt-2">
-       View Code
-    </a>
-  </div>
-</div>
-</div>
-
-  <div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-    <div class="card-body">
-      <h5>Image Resizer Tool</h5>
-      <p class="tech-stack">Python • Pillow</p>
-      <p class="problem-text">
-        Desktop-based image resizing tool that allows users
-        to resize images efficiently.
-      </p>
-
-      <a href="https://github.com/Nitin765kumar/image-resizer-tool"
-         target="_blank"
-         class="btn btn-sm btn-dark mt-2">
-         View Code
-      </a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-    <div class="card-body d-flex flex-column">
-      
-      <h5>Analog Clock</h5>
-      <p class="tech-stack">HTML • CSS • JavaScript</p>
-      <p class="problem-text">
-        Real-time analog clock built using pure HTML, CSS,
-        and JavaScript with dynamic hand rotation logic.
-      </p>
-
-      <!-- Buttons -->
-      <div class="mt-auto d-grid gap-2">
-        <a href="https://nitin765kumar.github.io/Analog-Clock/"
-           target="_blank"
-           class="btn btn-sm btn-primary">
-           Live Demo
-        </a>
-
-        <a href="https://github.com/Nitin765kumar/Analog-Clock"
-           target="_blank"
-           class="btn btn-sm btn-outline-light">
-           View Code
-        </a>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6 col-lg-3">
-  <div class="card project-card h-100">
-    <div class="card-body d-flex flex-column">
-
-      <h5>India Tour & Travels</h5>
-      <p class="tech-stack">HTML • CSS • Bootstrap • JavaScript</p>
-      <p class="problem-text">
-        A modern and responsive travel website designed to showcase
-        tour packages, destinations across India, and provide a smooth
-        browsing experience for travelers.
-      </p>
-
-      <div class="mt-auto d-grid gap-2">
-        <a href="https://nitin765kumar.github.io/India-tour---travels/"
-           target="_blank"
-           class="btn btn-sm btn-primary">
-           Live Demo
-        </a>
-
-        <a href="https://github.com/Nitin765kumar/India-tour---travels"
-           target="_blank"
-           class="btn btn-sm btn-outline-light">
-           View Code
-        </a>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-    </div>
-
-    <div class="text-center mt-4">
-      <button id="toggle-btn" class="btn btn-primary px-4" onclick="toggleProjects()">
-        Show More Projects
-      </button>
-    </div>
-
-  </div>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="contact-section">
-<div class="container">
-<h2 class="fw-bold mb-4">Let's Connect</h2>
-<div class="row">
-<div class="col-lg-6 mb-4">
-<form id="contactForm">
-<div class="mb-3">
-<label class="form-label">Full Name</label>
-<input type="text" class="form-control" required>
-</div>
-<div class="mb-3">
-<label class="form-label">Email</label>
-<input type="email" class="form-control" required>
-</div>
-<div class="mb-3">
-<label class="form-label">Message</label>
-<textarea class="form-control" rows="4" required></textarea>
-</div>
-<button type="submit" class="btn btn-primary w-100">Send Message</button>
-</form>
-</div>
-
-<div class="col-lg-6">
-
-  <p>
-    <i class="bi bi-envelope"></i> 
-    <a href="mailto:nitin89673@gmail.com">
-      nitin89673@gmail.com
-    </a>
-  </p>
-
-  <p>
-    <i class="bi bi-linkedin"></i> 
-    <a href="https://www.linkedin.com/in/nitinkumar25/" target="_blank">
-      linkedin.com/in/nitinkumar25
-    </a>
-  </p>
-
-  <p>
-    <i class="bi bi-github"></i> 
-    <a href="https://github.com/Nitin765kumar" target="_blank">
-      github.com/Nitin765kumar
-    </a>
-  </p>
-
-</div>
-
-<footer class="text-center">
-<div class="container">
-<p>&copy; 2026 Nitin Kumar | All Rights Reserved.</p>
-</div>
-</footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
